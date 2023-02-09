@@ -63,6 +63,7 @@ p{
     border-radius: 1.8rem;
     border: none;
     background-color:hsl(213, 19%, 18%);
+    color: hsl(217, 12%, 63%);
     
 }
 
@@ -91,10 +92,12 @@ p{
 
 .msg-thankyou{
     width: 18rem;
-    height: 3rem;
     border: 1px solid red;
+    display: flex;
     text-align: center;
-    margin: 0.5rem 1rem;
+    justify-content: center;
+    align-items: center;
+    
 
 }
 
