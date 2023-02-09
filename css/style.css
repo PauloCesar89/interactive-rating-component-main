@@ -97,6 +97,21 @@ p{
     background-color:hsl(213, 19%, 18%);
 }
 
+.lista-nota li button:hover{
+background: hsl(217, 12%, 63%);
+color: hsl(0, 0%, 100%);
+
+}
+
+.main button:hover{
+    background: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+}
+
+.lista-nota li button:focus{
+    background-color:hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+}
 
 /*border: 1px solid red;*/
 
