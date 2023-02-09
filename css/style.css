@@ -11,14 +11,13 @@ body{
 
 .container {
     background: hsl(216, 12%, 8%);
-    width: 20rem;
-    height: 40rem;
+    width: 21rem;
+    height: 43rem;
     padding: 0.5rem;
     margin-top: 3rem;
     margin-left: 30rem;
     padding: 1rem 1rem 1rem 1rem;
-    border: 1px solid red;
-   
+    border-radius: 1rem;
 }
 
 .main{
@@ -51,8 +50,9 @@ p{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    padding: 1rem 0.5rem 0.5rem 0.5rem;
     border-radius: 0.5rem;
+    list-style-type: none;
 }
 
 .btn-nota{
@@ -69,6 +69,7 @@ p{
 
 .envio{
     margin-top: 2rem;
+    margin-bottom: 2rem;
     width: 100%;
     border-radius: 2rem;
     padding: 0.5rem 0.5rem;
@@ -78,27 +79,22 @@ p{
 }
 
 .thankyou{
-    padding: 3rem 0.5rem 0.5rem 5rem;
+    padding: 3rem 0.5rem;
+    width: 20rem;
+    text-align: center;
+
+    
 }
 
 .select{
-    margin: 1rem 1rem;
+    margin: 2rem 3rem;
+    padding: 0.2rem 0.2rem;
+    border-radius: 1rem;
+    border:none;
     color: hsl(25, 97%, 53%);
-    width: 75%;
+    width: 65%;
     text-align: center; 
     background-color:hsl(213, 19%, 18%);
-    border: 1px solid red;
-}
-
-.msg-thankyou{
-    width: 18rem;
-    border: 1px solid red;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    
-
 }
 
 
