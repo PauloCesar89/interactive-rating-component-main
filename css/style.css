@@ -10,20 +10,26 @@ body{
 }
 
 .container {
-    background: hsl(216, 12%, 8%);
+    
     width: 21rem;
-    height: 43rem;
+    height: 40rem;
     padding: 0.5rem;
-    margin-top: 3rem;
     margin-left: 30rem;
-    padding: 1rem 1rem 1rem 1rem;
+    padding: 1rem 0.5rem;
     border-radius: 1rem;
+    border: 1px solid red;    
 }
 
 .main{
     
-    padding: 0.2rem 0.2rem 0.2rem 0.2rem;
-    
+    padding: 0.5rem 0.9rem 0.9rem 0.9rem;
+    border: 1px solid green;
+    background: hsl(216, 12%, 8%);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 50%;
+    left: 50%;
 }
 
 .icon-star{
@@ -33,6 +39,7 @@ body{
     background-color:hsl(213, 19%, 18%);
     margin-bottom: 1rem;
     border-radius: 2rem;
+    border: 1px solid yellow;
    
 }
 
@@ -68,8 +75,8 @@ p{
 }
 
 .envio{
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     width: 100%;
     border-radius: 2rem;
     padding: 0.5rem 0.5rem;
@@ -79,9 +86,14 @@ p{
 }
 
 .thankyou{
-    padding: 3rem 0.5rem;
+    padding: 1rem 0.5rem;
     width: 20rem;
     text-align: center;
+    border: 1px solid rgb(36, 5, 109);
+    background: hsl(216, 12%, 8%);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
     
 }
@@ -111,6 +123,11 @@ color: hsl(0, 0%, 100%);
 .lista-nota li button:focus{
     background-color:hsl(25, 97%, 53%);
     color: hsl(0, 0%, 100%);
+}
+
+.hide{
+    display: none;
+
 }
 
 /*border: 1px solid red;*/
