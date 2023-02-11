@@ -1,5 +1,5 @@
-const container = document.querySelector(".container")
-const thanksyou = document.querySelector(".thanks-you")
-const submitbutton = document.getElementById("envio")
+const main = document.querySelector(".main");
+const thanksContainer = document.querySelector(".thankyou");
+const submitButton = document.getElementById("submit");
 
-submitbutton.addEventListener("click", () =>{thanksyou.classList.remove("hide")})
+submitButton.addEventListener("click", () =>{thanksContainer.classList.remove("hide"); main.style.display ="none"}); 
