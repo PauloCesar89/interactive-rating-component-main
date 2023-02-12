@@ -17,8 +17,7 @@ body{
     padding: 0.5rem;
     margin-left: 30rem;
     padding: 1rem 0.5rem;
-    border-radius: 1rem;
-    border: 1px solid red;    
+    border-radius: 1rem;    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -28,7 +27,6 @@ body{
 .main{
     
     padding: 0.5rem 0.9rem 0.9rem 0.9rem;
-    border: 1px solid green;
     background: hsl(216, 12%, 8%);
 
 }
@@ -90,11 +88,11 @@ p{
     padding: 1rem 0.5rem;
     width: 20rem;
     text-align: center;
-    border: 1px solid rgb(36, 5, 109);
     background: hsl(216, 12%, 8%);
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    display: none;
 
     
 }
@@ -124,11 +122,4 @@ color: hsl(0, 0%, 100%);
 .lista-nota li button:focus{
     background-color:hsl(25, 97%, 53%);
     color: hsl(0, 0%, 100%);
-}
-
-.hide {
-    display: none;
-}
-#submit{
-    display: none;
 }

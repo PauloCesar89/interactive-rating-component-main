@@ -1,5 +1,11 @@
-const main = document.querySelector(".main");
-const thanksContainer = document.querySelector(".thankyou");
-const submitButton = document.getElementById("submit");
+var btn = document.querySelector('.envio');
+var thanksContainer = document.querySelector('.thankyou');
+var main = document.querySelector('.main');
 
-submitButton.addEventListener("click", () =>{thanksContainer.classList.remove("hide"); main.style.display ="none"}); 
+
+btn.addEventListener("click", function() {
+
+    thanksContainer.style.display = 'block';
+    main.style.display = 'none';
+    
+});
