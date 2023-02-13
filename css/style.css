@@ -1,13 +1,14 @@
 *{
     margin: 0;
     padding: 0;
+    font-size: "Overpass","san-serif";
+    font-size: 15px;
 }
 
 body{
     background: #050505;
-    font-size: "Overpass","san-serif";
-    font-size: 15px;
-
+    align-items: center;
+    display: flex;
 }
 
 .container {
@@ -28,7 +29,7 @@ body{
     
     padding: 0.5rem 0.9rem 0.9rem 0.9rem;
     background: hsl(216, 12%, 8%);
-
+    border-radius: 1rem;
 }
 
 .icon-star{
@@ -37,9 +38,7 @@ body{
     height: 0.8rem;
     background-color:hsl(213, 19%, 18%);
     margin-bottom: 1rem;
-    border-radius: 2rem;
-    border: 1px solid yellow;
-   
+    border-radius: 2rem;   
 }
 
 h1{
@@ -70,7 +69,6 @@ p{
     border: none;
     background-color:hsl(213, 19%, 18%);
     color: hsl(217, 12%, 63%);
-    
 }
 
 .envio{
@@ -81,7 +79,6 @@ p{
     padding: 0.5rem 0.5rem;
     border: none;
     background-color:hsl(25, 97%, 53%);
-
 }
 
 .thankyou{
@@ -92,9 +89,8 @@ p{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    display: none;
-
-    
+    border-radius: 1rem;
+    display: none;  
 }
 
 .select{
@@ -111,7 +107,6 @@ p{
 .lista-nota li button:hover{
 background: hsl(217, 12%, 63%);
 color: hsl(0, 0%, 100%);
-
 }
 
 .main button:hover{
